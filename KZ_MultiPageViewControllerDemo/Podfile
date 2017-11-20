@@ -1,0 +1,11 @@
+platform :ios, ‘8.0’
+
+use_frameworks!
+
+target 'KZ_MultiPageViewController' do
+    
+    pod 'KZ_Categories'
+    pod 'KZ_ReuseScrollView'
+    pod 'Masonry'
+    
+end

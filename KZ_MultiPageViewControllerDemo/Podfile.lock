@@ -1,0 +1,18 @@
+PODS:
+  - KZ_Categories (0.1)
+  - KZ_ReuseScrollView (0.1)
+  - Masonry (1.1.0)
+
+DEPENDENCIES:
+  - KZ_Categories
+  - KZ_ReuseScrollView
+  - Masonry
+
+SPEC CHECKSUMS:
+  KZ_Categories: 260eb48aa4279824567d44f43c6db55fce1da52e
+  KZ_ReuseScrollView: 618e9619a6f6d1b97655225bb0bcba2c21e2ef85
+  Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
+
+PODFILE CHECKSUM: f39cc2d8c6e9c06a1f6178b7131ad63608252643
+
+COCOAPODS: 1.3.1
