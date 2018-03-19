@@ -39,6 +39,7 @@
     }
     multiPageViewController = [[KZ_MultiPageViewController alloc] init];
     multiPageViewController.delegate = self;
+    multiPageViewController.itemDistance = 20.0f;
 //    multiPageViewController.segmentViewHeight = 44;
     multiPageViewController.multiPageSegmentControl.movingType = KZ_MultiPageMovingType_Stretch;
     multiPageViewController.multiPageSegmentControl.movingTransType = KZ_MultiPageMovingTransType_Part;

@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		AE9A26021FC5F6EC00668BA7 /* KZ_MultiPageViewControllerFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AE9A26011FC5F6EC00668BA7 /* KZ_MultiPageViewControllerFramework.framework */; };
+		AE7B514C206009B000544FE4 /* KZ_MultiPageViewControllerFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AE7B514B206009B000544FE4 /* KZ_MultiPageViewControllerFramework.framework */; };
 		AEF176461E0EB855003D041A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AEF176451E0EB855003D041A /* main.m */; };
 		AEF176491E0EB855003D041A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = AEF176481E0EB855003D041A /* AppDelegate.m */; };
 		AEF1764C1E0EB855003D041A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AEF1764B1E0EB855003D041A /* ViewController.m */; };
@@ -38,7 +38,7 @@
 		7450AFB00EA9194B861D69FC /* Pods-KZ_MultiPageViewControllerFramework.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KZ_MultiPageViewControllerFramework.release.xcconfig"; path = "Pods/Target Support Files/Pods-KZ_MultiPageViewControllerFramework/Pods-KZ_MultiPageViewControllerFramework.release.xcconfig"; sourceTree = "<group>"; };
 		7ABAE0E206486D38FF289FF5 /* Pods_KZ_MultiPageViewControllerFramework.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_KZ_MultiPageViewControllerFramework.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		8F4464B7F6C47C6186AAF18F /* Pods-KZ_MultiPageViewController.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KZ_MultiPageViewController.release.xcconfig"; path = "Pods/Target Support Files/Pods-KZ_MultiPageViewController/Pods-KZ_MultiPageViewController.release.xcconfig"; sourceTree = "<group>"; };
-		AE9A26011FC5F6EC00668BA7 /* KZ_MultiPageViewControllerFramework.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = KZ_MultiPageViewControllerFramework.framework; sourceTree = "<group>"; };
+		AE7B514B206009B000544FE4 /* KZ_MultiPageViewControllerFramework.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = KZ_MultiPageViewControllerFramework.framework; sourceTree = "<group>"; };
 		AEF176411E0EB855003D041A /* KZ_MultiPageViewController.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KZ_MultiPageViewController.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AEF176451E0EB855003D041A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		AEF176471E0EB855003D041A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -58,7 +58,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AE9A26021FC5F6EC00668BA7 /* KZ_MultiPageViewControllerFramework.framework in Frameworks */,
+				AE7B514C206009B000544FE4 /* KZ_MultiPageViewControllerFramework.framework in Frameworks */,
 				CBDD1682A9096245A8B06745 /* Pods_KZ_MultiPageViewController.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -89,7 +89,7 @@
 		AEA5EBF81FC2AC54003D7BD1 /* MultiPageViewController */ = {
 			isa = PBXGroup;
 			children = (
-				AE9A26011FC5F6EC00668BA7 /* KZ_MultiPageViewControllerFramework.framework */,
+				AE7B514B206009B000544FE4 /* KZ_MultiPageViewControllerFramework.framework */,
 			);
 			path = MultiPageViewController;
 			sourceTree = "<group>";

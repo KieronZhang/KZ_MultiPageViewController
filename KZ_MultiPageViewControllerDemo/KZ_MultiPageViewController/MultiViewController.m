@@ -7,7 +7,7 @@
 //
 
 #import "MultiViewController.h"
-#import <Masonry/Masonry.h>
+#import <KZ_ConstraintsFramework/KZ_Constraints.h>
 
 @interface MultiViewController ()
 
@@ -23,10 +23,7 @@
     multiTableView.delegate = self;
     multiTableView.dataSource = self;
     [self.view addSubview:multiTableView];
-    
-    [multiTableView mas_makeConstraints:^(MASConstraintMaker *make) {
-        make.edges.mas_equalTo(UIEdgeInsetsZero);
-    }];
+    [multiTableView addConstraintsUseFrameWithAttribute:KZ_LayoutAttribute_EdgeInsets];
 }
 
 - (void)viewWillAppear:(BOOL)animated {

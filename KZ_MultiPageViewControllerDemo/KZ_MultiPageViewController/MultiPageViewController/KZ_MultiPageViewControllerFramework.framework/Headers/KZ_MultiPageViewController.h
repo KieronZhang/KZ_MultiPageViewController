@@ -35,6 +35,7 @@
 @property (nonatomic, strong) KZ_MultiPageSegmentControl *multiPageSegmentControl;
 @property (nonatomic, assign) float segmentViewHeight; //选择条的高度
 @property (nonatomic, assign) CGRect viewFrame; //整体view的frame
+@property (nonatomic, assign) int itemDistance; //controller之间的空隙
 @property (nonatomic, assign) int selectIndex; //当前选择的位置
 @property (nonatomic, assign) BOOL disappearSegmentView; //是否隐藏选择条
 @property (nonatomic, assign) BOOL scrollEnabled; //是否可以滑动

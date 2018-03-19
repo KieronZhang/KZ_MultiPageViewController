@@ -6,6 +6,6 @@ target 'KZ_MultiPageViewController' do
     
     pod 'KZ_Categories'
     pod 'KZ_ReuseScrollView'
-    pod 'Masonry'
-    
+    pod 'KZ_Constraints'
+
 end
