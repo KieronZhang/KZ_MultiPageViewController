@@ -3,230 +3,183 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 46;
+	objectVersion = 50;
 	objects = {
 
 /* Begin PBXBuildFile section */
-		AE7B514C206009B000544FE4 /* KZ_MultiPageViewControllerFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AE7B514B206009B000544FE4 /* KZ_MultiPageViewControllerFramework.framework */; };
-		AEF176461E0EB855003D041A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AEF176451E0EB855003D041A /* main.m */; };
-		AEF176491E0EB855003D041A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = AEF176481E0EB855003D041A /* AppDelegate.m */; };
-		AEF1764C1E0EB855003D041A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AEF1764B1E0EB855003D041A /* ViewController.m */; };
-		AEF1764F1E0EB855003D041A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AEF1764D1E0EB855003D041A /* Main.storyboard */; };
-		AEF176511E0EB855003D041A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AEF176501E0EB855003D041A /* Assets.xcassets */; };
-		AEF176541E0EB855003D041A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AEF176521E0EB855003D041A /* LaunchScreen.storyboard */; };
-		AEF176831E0EB934003D041A /* MultiViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AEF176821E0EB934003D041A /* MultiViewController.m */; };
-		CBDD1682A9096245A8B06745 /* Pods_KZ_MultiPageViewController.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 189239010870DCF6C278C300 /* Pods_KZ_MultiPageViewController.framework */; };
+		AE4003CD20A29F7900017619 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = AE4003CC20A29F7900017619 /* AppDelegate.m */; };
+		AE4003D020A29F7900017619 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AE4003CF20A29F7900017619 /* ViewController.m */; };
+		AE4003D320A29F7900017619 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AE4003D120A29F7900017619 /* Main.storyboard */; };
+		AE4003D520A29F7A00017619 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AE4003D420A29F7A00017619 /* Assets.xcassets */; };
+		AE4003D820A29F7A00017619 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AE4003D620A29F7A00017619 /* LaunchScreen.storyboard */; };
+		AE4003DB20A29F7A00017619 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AE4003DA20A29F7A00017619 /* main.m */; };
+		AE4003E120A29FAE00017619 /* KZ_MultiPageViewController_iOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AE4003E020A29FAE00017619 /* KZ_MultiPageViewController_iOS.framework */; };
+		AE4003E420A29FE800017619 /* MultiViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AE4003E320A29FE800017619 /* MultiViewController.m */; };
+		C467CD3631EFD85874661C7D /* Pods_KZ_MultiPageViewController_iOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2910CDFFF4334C78729B85EB /* Pods_KZ_MultiPageViewController_iOS.framework */; };
 /* End PBXBuildFile section */
 
-/* Begin PBXCopyFilesBuildPhase section */
-		AE3700FC1FC28F7B00403658 /* Embed Frameworks */ = {
-			isa = PBXCopyFilesBuildPhase;
-			buildActionMask = 2147483647;
-			dstPath = "";
-			dstSubfolderSpec = 10;
-			files = (
-			);
-			name = "Embed Frameworks";
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-/* End PBXCopyFilesBuildPhase section */
-
 /* Begin PBXFileReference section */
-		189239010870DCF6C278C300 /* Pods_KZ_MultiPageViewController.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_KZ_MultiPageViewController.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		378DE9CC5FB4A22B4BB9D0A0 /* Pods-KZ_MultiPageViewController.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KZ_MultiPageViewController.debug.xcconfig"; path = "Pods/Target Support Files/Pods-KZ_MultiPageViewController/Pods-KZ_MultiPageViewController.debug.xcconfig"; sourceTree = "<group>"; };
-		50ED546B8316809A6E587814 /* Pods-KZ_MultiPageViewControllerFramework.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KZ_MultiPageViewControllerFramework.debug.xcconfig"; path = "Pods/Target Support Files/Pods-KZ_MultiPageViewControllerFramework/Pods-KZ_MultiPageViewControllerFramework.debug.xcconfig"; sourceTree = "<group>"; };
-		7450AFB00EA9194B861D69FC /* Pods-KZ_MultiPageViewControllerFramework.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KZ_MultiPageViewControllerFramework.release.xcconfig"; path = "Pods/Target Support Files/Pods-KZ_MultiPageViewControllerFramework/Pods-KZ_MultiPageViewControllerFramework.release.xcconfig"; sourceTree = "<group>"; };
-		7ABAE0E206486D38FF289FF5 /* Pods_KZ_MultiPageViewControllerFramework.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_KZ_MultiPageViewControllerFramework.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		8F4464B7F6C47C6186AAF18F /* Pods-KZ_MultiPageViewController.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KZ_MultiPageViewController.release.xcconfig"; path = "Pods/Target Support Files/Pods-KZ_MultiPageViewController/Pods-KZ_MultiPageViewController.release.xcconfig"; sourceTree = "<group>"; };
-		AE7B514B206009B000544FE4 /* KZ_MultiPageViewControllerFramework.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = KZ_MultiPageViewControllerFramework.framework; sourceTree = "<group>"; };
-		AEF176411E0EB855003D041A /* KZ_MultiPageViewController.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KZ_MultiPageViewController.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		AEF176451E0EB855003D041A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		AEF176471E0EB855003D041A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		AEF176481E0EB855003D041A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		AEF1764A1E0EB855003D041A /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		AEF1764B1E0EB855003D041A /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		AEF1764E1E0EB855003D041A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		AEF176501E0EB855003D041A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		AEF176531E0EB855003D041A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		AEF176551E0EB855003D041A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		AEF176811E0EB934003D041A /* MultiViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MultiViewController.h; sourceTree = "<group>"; };
-		AEF176821E0EB934003D041A /* MultiViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MultiViewController.m; sourceTree = "<group>"; };
+		2910CDFFF4334C78729B85EB /* Pods_KZ_MultiPageViewController_iOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_KZ_MultiPageViewController_iOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		AE4003C920A29F7900017619 /* KZ_MultiPageViewController_iOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KZ_MultiPageViewController_iOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AE4003CB20A29F7900017619 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		AE4003CC20A29F7900017619 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		AE4003CE20A29F7900017619 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		AE4003CF20A29F7900017619 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		AE4003D220A29F7900017619 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		AE4003D420A29F7A00017619 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AE4003D720A29F7A00017619 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		AE4003D920A29F7A00017619 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AE4003DA20A29F7A00017619 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		AE4003E020A29FAE00017619 /* KZ_MultiPageViewController_iOS.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = KZ_MultiPageViewController_iOS.framework; sourceTree = "<group>"; };
+		AE4003E220A29FE800017619 /* MultiViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MultiViewController.h; sourceTree = "<group>"; };
+		AE4003E320A29FE800017619 /* MultiViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MultiViewController.m; sourceTree = "<group>"; };
+		B874688A5DF8D85324DF656B /* Pods-KZ_MultiPageViewController_iOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KZ_MultiPageViewController_iOS.release.xcconfig"; path = "Pods/Target Support Files/Pods-KZ_MultiPageViewController_iOS/Pods-KZ_MultiPageViewController_iOS.release.xcconfig"; sourceTree = "<group>"; };
+		C63C6DA06EB2F04E786F83AB /* Pods-KZ_MultiPageViewController_iOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KZ_MultiPageViewController_iOS.debug.xcconfig"; path = "Pods/Target Support Files/Pods-KZ_MultiPageViewController_iOS/Pods-KZ_MultiPageViewController_iOS.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		AEF1763E1E0EB855003D041A /* Frameworks */ = {
+		AE4003C620A29F7900017619 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AE7B514C206009B000544FE4 /* KZ_MultiPageViewControllerFramework.framework in Frameworks */,
-				CBDD1682A9096245A8B06745 /* Pods_KZ_MultiPageViewController.framework in Frameworks */,
+				AE4003E120A29FAE00017619 /* KZ_MultiPageViewController_iOS.framework in Frameworks */,
+				C467CD3631EFD85874661C7D /* Pods_KZ_MultiPageViewController_iOS.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		0B920685FB2FD87382D3E147 /* Frameworks */ = {
+		5642A5D71C8009F89748A27A /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				189239010870DCF6C278C300 /* Pods_KZ_MultiPageViewController.framework */,
-				7ABAE0E206486D38FF289FF5 /* Pods_KZ_MultiPageViewControllerFramework.framework */,
+				2910CDFFF4334C78729B85EB /* Pods_KZ_MultiPageViewController_iOS.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		0EC712E8EC7E4C32905D6980 /* Pods */ = {
+		AE4003A320A29F7300017619 = {
 			isa = PBXGroup;
 			children = (
-				378DE9CC5FB4A22B4BB9D0A0 /* Pods-KZ_MultiPageViewController.debug.xcconfig */,
-				8F4464B7F6C47C6186AAF18F /* Pods-KZ_MultiPageViewController.release.xcconfig */,
-				50ED546B8316809A6E587814 /* Pods-KZ_MultiPageViewControllerFramework.debug.xcconfig */,
-				7450AFB00EA9194B861D69FC /* Pods-KZ_MultiPageViewControllerFramework.release.xcconfig */,
-			);
-			name = Pods;
-			sourceTree = "<group>";
-		};
-		AEA5EBF81FC2AC54003D7BD1 /* MultiPageViewController */ = {
-			isa = PBXGroup;
-			children = (
-				AE7B514B206009B000544FE4 /* KZ_MultiPageViewControllerFramework.framework */,
-			);
-			path = MultiPageViewController;
-			sourceTree = "<group>";
-		};
-		AEF176381E0EB855003D041A = {
-			isa = PBXGroup;
-			children = (
-				AEF176431E0EB855003D041A /* KZ_MultiPageViewController */,
-				AEF176421E0EB855003D041A /* Products */,
-				0EC712E8EC7E4C32905D6980 /* Pods */,
-				0B920685FB2FD87382D3E147 /* Frameworks */,
+				AE4003CA20A29F7900017619 /* KZ_MultiPageViewController_iOS */,
+				AE4003AD20A29F7300017619 /* Products */,
+				F9059346F953C076DF307D5A /* Pods */,
+				5642A5D71C8009F89748A27A /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
-		AEF176421E0EB855003D041A /* Products */ = {
+		AE4003AD20A29F7300017619 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				AEF176411E0EB855003D041A /* KZ_MultiPageViewController.app */,
+				AE4003C920A29F7900017619 /* KZ_MultiPageViewController_iOS.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		AEF176431E0EB855003D041A /* KZ_MultiPageViewController */ = {
+		AE4003CA20A29F7900017619 /* KZ_MultiPageViewController_iOS */ = {
 			isa = PBXGroup;
 			children = (
-				AEF176471E0EB855003D041A /* AppDelegate.h */,
-				AEF176481E0EB855003D041A /* AppDelegate.m */,
-				AEF1764A1E0EB855003D041A /* ViewController.h */,
-				AEF1764B1E0EB855003D041A /* ViewController.m */,
-				AEF176811E0EB934003D041A /* MultiViewController.h */,
-				AEF176821E0EB934003D041A /* MultiViewController.m */,
-				AEA5EBF81FC2AC54003D7BD1 /* MultiPageViewController */,
-				AEF1764D1E0EB855003D041A /* Main.storyboard */,
-				AEF176501E0EB855003D041A /* Assets.xcassets */,
-				AEF176521E0EB855003D041A /* LaunchScreen.storyboard */,
-				AEF176551E0EB855003D041A /* Info.plist */,
-				AEF176441E0EB855003D041A /* Supporting Files */,
+				AE4003CB20A29F7900017619 /* AppDelegate.h */,
+				AE4003CC20A29F7900017619 /* AppDelegate.m */,
+				AE4003CE20A29F7900017619 /* ViewController.h */,
+				AE4003CF20A29F7900017619 /* ViewController.m */,
+				AE4003E220A29FE800017619 /* MultiViewController.h */,
+				AE4003E320A29FE800017619 /* MultiViewController.m */,
+				AE4003DF20A29FAE00017619 /* MultiPageViewController */,
+				AE4003D120A29F7900017619 /* Main.storyboard */,
+				AE4003D420A29F7A00017619 /* Assets.xcassets */,
+				AE4003D620A29F7A00017619 /* LaunchScreen.storyboard */,
+				AE4003D920A29F7A00017619 /* Info.plist */,
+				AE4003DA20A29F7A00017619 /* main.m */,
 			);
-			path = KZ_MultiPageViewController;
+			path = KZ_MultiPageViewController_iOS;
 			sourceTree = "<group>";
 		};
-		AEF176441E0EB855003D041A /* Supporting Files */ = {
+		AE4003DF20A29FAE00017619 /* MultiPageViewController */ = {
 			isa = PBXGroup;
 			children = (
-				AEF176451E0EB855003D041A /* main.m */,
+				AE4003E020A29FAE00017619 /* KZ_MultiPageViewController_iOS.framework */,
 			);
-			name = "Supporting Files";
+			path = MultiPageViewController;
+			sourceTree = "<group>";
+		};
+		F9059346F953C076DF307D5A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C63C6DA06EB2F04E786F83AB /* Pods-KZ_MultiPageViewController_iOS.debug.xcconfig */,
+				B874688A5DF8D85324DF656B /* Pods-KZ_MultiPageViewController_iOS.release.xcconfig */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		AEF176401E0EB855003D041A /* KZ_MultiPageViewController */ = {
+		AE4003C820A29F7900017619 /* KZ_MultiPageViewController_iOS */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = AEF1766E1E0EB855003D041A /* Build configuration list for PBXNativeTarget "KZ_MultiPageViewController" */;
+			buildConfigurationList = AE4003DC20A29F7A00017619 /* Build configuration list for PBXNativeTarget "KZ_MultiPageViewController_iOS" */;
 			buildPhases = (
-				8D7061D709107883EF00BDD1 /* [CP] Check Pods Manifest.lock */,
-				AEF1763D1E0EB855003D041A /* Sources */,
-				AEF1763E1E0EB855003D041A /* Frameworks */,
-				AEF1763F1E0EB855003D041A /* Resources */,
-				D1F3D0F368E13FD7A17687EA /* [CP] Embed Pods Frameworks */,
-				24738EC7E8DF5E7C1C4B71D1 /* [CP] Copy Pods Resources */,
-				AE3700FC1FC28F7B00403658 /* Embed Frameworks */,
+				486DBDC960110A38B31A532A /* [CP] Check Pods Manifest.lock */,
+				AE4003C520A29F7900017619 /* Sources */,
+				AE4003C620A29F7900017619 /* Frameworks */,
+				AE4003C720A29F7900017619 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = KZ_MultiPageViewController;
-			productName = KZ_MultiPageViewController;
-			productReference = AEF176411E0EB855003D041A /* KZ_MultiPageViewController.app */;
+			name = KZ_MultiPageViewController_iOS;
+			productName = KZ_MultiPageViewController_iOS;
+			productReference = AE4003C920A29F7900017619 /* KZ_MultiPageViewController_iOS.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		AEF176391E0EB855003D041A /* Project object */ = {
+		AE4003A420A29F7300017619 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0910;
+				LastUpgradeCheck = 0930;
 				ORGANIZATIONNAME = "Kieron Zhang";
 				TargetAttributes = {
-					AEF176401E0EB855003D041A = {
-						CreatedOnToolsVersion = 8.2;
-						DevelopmentTeam = TGTFTDLM8G;
-						ProvisioningStyle = Automatic;
+					AE4003C820A29F7900017619 = {
+						CreatedOnToolsVersion = 9.3;
 					};
 				};
 			};
-			buildConfigurationList = AEF1763C1E0EB855003D041A /* Build configuration list for PBXProject "KZ_MultiPageViewController" */;
-			compatibilityVersion = "Xcode 3.2";
-			developmentRegion = English;
+			buildConfigurationList = AE4003A720A29F7300017619 /* Build configuration list for PBXProject "KZ_MultiPageViewController" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
 				Base,
 			);
-			mainGroup = AEF176381E0EB855003D041A;
-			productRefGroup = AEF176421E0EB855003D041A /* Products */;
+			mainGroup = AE4003A320A29F7300017619;
+			productRefGroup = AE4003AD20A29F7300017619 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				AEF176401E0EB855003D041A /* KZ_MultiPageViewController */,
+				AE4003C820A29F7900017619 /* KZ_MultiPageViewController_iOS */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		AEF1763F1E0EB855003D041A /* Resources */ = {
+		AE4003C720A29F7900017619 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AEF176541E0EB855003D041A /* LaunchScreen.storyboard in Resources */,
-				AEF176511E0EB855003D041A /* Assets.xcassets in Resources */,
-				AEF1764F1E0EB855003D041A /* Main.storyboard in Resources */,
+				AE4003D820A29F7A00017619 /* LaunchScreen.storyboard in Resources */,
+				AE4003D520A29F7A00017619 /* Assets.xcassets in Resources */,
+				AE4003D320A29F7900017619 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		24738EC7E8DF5E7C1C4B71D1 /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Copy Pods Resources";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-KZ_MultiPageViewController/Pods-KZ_MultiPageViewController-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		8D7061D709107883EF00BDD1 /* [CP] Check Pods Manifest.lock */ = {
+		486DBDC960110A38B31A532A /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -237,60 +190,42 @@
 			);
 			name = "[CP] Check Pods Manifest.lock";
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-KZ_MultiPageViewController-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-KZ_MultiPageViewController_iOS-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		D1F3D0F368E13FD7A17687EA /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-				"${SRCROOT}/Pods/Target Support Files/Pods-KZ_MultiPageViewController/Pods-KZ_MultiPageViewController-frameworks.sh",
-				"${BUILT_PRODUCTS_DIR}/Masonry/Masonry.framework",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputPaths = (
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Masonry.framework",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-KZ_MultiPageViewController/Pods-KZ_MultiPageViewController-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		AEF1763D1E0EB855003D041A /* Sources */ = {
+		AE4003C520A29F7900017619 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AEF1764C1E0EB855003D041A /* ViewController.m in Sources */,
-				AEF176491E0EB855003D041A /* AppDelegate.m in Sources */,
-				AEF176461E0EB855003D041A /* main.m in Sources */,
-				AEF176831E0EB934003D041A /* MultiViewController.m in Sources */,
+				AE4003D020A29F7900017619 /* ViewController.m in Sources */,
+				AE4003DB20A29F7A00017619 /* main.m in Sources */,
+				AE4003E420A29FE800017619 /* MultiViewController.m in Sources */,
+				AE4003CD20A29F7900017619 /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		AEF1764D1E0EB855003D041A /* Main.storyboard */ = {
+		AE4003D120A29F7900017619 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				AEF1764E1E0EB855003D041A /* Base */,
+				AE4003D220A29F7900017619 /* Base */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
-		AEF176521E0EB855003D041A /* LaunchScreen.storyboard */ = {
+		AE4003D620A29F7A00017619 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				AEF176531E0EB855003D041A /* Base */,
+				AE4003D720A29F7A00017619 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -298,19 +233,22 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		AEF1766C1E0EB855003D041A /* Debug */ = {
+		AE4003C020A29F7400017619 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ANALYZER_NONNULL = YES;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
 				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
 				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
@@ -318,19 +256,21 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
-				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_OPTIMIZATION_LEVEL = 0;
@@ -344,27 +284,29 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
-				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
-		AEF1766D1E0EB855003D041A /* Release */ = {
+		AE4003C120A29F7400017619 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ANALYZER_NONNULL = YES;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
 				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
 				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
@@ -372,19 +314,21 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
@@ -392,51 +336,50 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
-				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
 		};
-		AEF1766F1E0EB855003D041A /* Debug */ = {
+		AE4003DD20A29F7A00017619 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 378DE9CC5FB4A22B4BB9D0A0 /* Pods-KZ_MultiPageViewController.debug.xcconfig */;
+			baseConfigurationReference = C63C6DA06EB2F04E786F83AB /* Pods-KZ_MultiPageViewController_iOS.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = TGTFTDLM8G;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
-					"$(PROJECT_DIR)/KZ_MultiPageViewController/MultiPageViewController",
+					"$(PROJECT_DIR)/KZ_MultiPageViewController_iOS/MultiPageViewController",
 				);
-				INFOPLIST_FILE = KZ_MultiPageViewController/Info.plist;
+				INFOPLIST_FILE = KZ_MultiPageViewController_iOS/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.kieronzhang.MultiPageViewController;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.kieronzhang.KZ-MultiPageViewController-iOS";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
-		AEF176701E0EB855003D041A /* Release */ = {
+		AE4003DE20A29F7A00017619 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 8F4464B7F6C47C6186AAF18F /* Pods-KZ_MultiPageViewController.release.xcconfig */;
+			baseConfigurationReference = B874688A5DF8D85324DF656B /* Pods-KZ_MultiPageViewController_iOS.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = TGTFTDLM8G;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
-					"$(PROJECT_DIR)/KZ_MultiPageViewController/MultiPageViewController",
+					"$(PROJECT_DIR)/KZ_MultiPageViewController_iOS/MultiPageViewController",
 				);
-				INFOPLIST_FILE = KZ_MultiPageViewController/Info.plist;
+				INFOPLIST_FILE = KZ_MultiPageViewController_iOS/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.kieronzhang.MultiPageViewController;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.kieronzhang.KZ-MultiPageViewController-iOS";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = 1;
 			};
@@ -445,25 +388,25 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		AEF1763C1E0EB855003D041A /* Build configuration list for PBXProject "KZ_MultiPageViewController" */ = {
+		AE4003A720A29F7300017619 /* Build configuration list for PBXProject "KZ_MultiPageViewController" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				AEF1766C1E0EB855003D041A /* Debug */,
-				AEF1766D1E0EB855003D041A /* Release */,
+				AE4003C020A29F7400017619 /* Debug */,
+				AE4003C120A29F7400017619 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		AEF1766E1E0EB855003D041A /* Build configuration list for PBXNativeTarget "KZ_MultiPageViewController" */ = {
+		AE4003DC20A29F7A00017619 /* Build configuration list for PBXNativeTarget "KZ_MultiPageViewController_iOS" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				AEF1766F1E0EB855003D041A /* Debug */,
-				AEF176701E0EB855003D041A /* Release */,
+				AE4003DD20A29F7A00017619 /* Debug */,
+				AE4003DE20A29F7A00017619 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = AEF176391E0EB855003D041A /* Project object */;
+	rootObject = AE4003A420A29F7300017619 /* Project object */;
 }

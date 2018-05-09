@@ -1,8 +1,8 @@
-platform :ios, ‘8.0’
+platform :ios, '8.0'
 
 use_frameworks!
 
-target 'KZ_MultiPageViewController' do
+target 'KZ_MultiPageViewController_iOS' do
     
     pod 'KZ_Categories'
     pod 'KZ_ReuseScrollView'
