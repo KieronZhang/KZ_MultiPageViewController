@@ -15,8 +15,8 @@
 #define kz_TransValue(value) [KZ_ConstraintUtils transValue:@encode(__typeof__((value))), (value)]
 
 #define kz_equalTo(value) equalTo(kz_TransValue(value))
-#define kz_greaterThanOrEqualTo greaterThanOrEqualTo(kz_TransValue(value))
-#define kz_lessThanOrEqualTo lessThanOrEqualTo(kz_TransValue(value))
+#define kz_greaterThanOrEqualTo(value) greaterThanOrEqualTo(kz_TransValue(value))
+#define kz_lessThanOrEqualTo(value) lessThanOrEqualTo(kz_TransValue(value))
 
-#define kz_offset offset(kz_TransValue(value))
-#define kz_multipier multipier(kz_TransValue(value))
+#define kz_offset(value) offset(kz_TransValue(value))
+#define kz_multipier(value) multipier(kz_TransValue(value))

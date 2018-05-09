@@ -23,7 +23,7 @@
     multiTableView.delegate = self;
     multiTableView.dataSource = self;
     [self.view addSubview:multiTableView];
-    [multiTableView addConstraintsUseFrameWithAttribute:KZ_LayoutAttribute_EdgeInsets];
+    [multiTableView kz_addConstraintsUseFrameWithAttribute:KZ_LayoutAttribute_EdgeInsets];
 }
 
 - (void)viewWillAppear:(BOOL)animated {

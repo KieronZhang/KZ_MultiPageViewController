@@ -11,6 +11,6 @@
 @interface KZ_View (KZ_FrameBinding)
 
 //只支持 KZ_LayoutAttribute_Left KZ_LayoutAttribute_Right KZ_LayoutAttribute_Top KZ_LayoutAttribute_Bottom KZ_LayoutAttribute_Width KZ_LayoutAttribute_Height KZ_LayoutAttribute_CenterX KZ_LayoutAttribute_CenterY
-- (void)addConstraintsUseFrameWithAttribute:(KZ_LayoutAttribute)layoutAttribute;
+- (void)kz_addConstraintsUseFrameWithAttribute:(KZ_LayoutAttribute)layoutAttribute;
 
 @end

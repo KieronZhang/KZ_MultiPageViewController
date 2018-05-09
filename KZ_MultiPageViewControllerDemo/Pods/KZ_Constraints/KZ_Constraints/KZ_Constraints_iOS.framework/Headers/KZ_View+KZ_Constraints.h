@@ -42,19 +42,19 @@
 @property (nonatomic, strong, readonly) KZ_ConstraintAttribute *kz_size;
 @property (nonatomic, strong, readonly) KZ_ConstraintAttribute *kz_edgeInsets;
 
-- (void)addConstraintsWithAttribute:(KZ_LayoutAttribute)layoutAttribute equalValue:(id)value;
-- (void)addConstraintsWithAttribute:(KZ_LayoutAttribute)layoutAttribute equalValue:(id)value offset:(id)offset;
-- (void)addConstraintsWithAttribute:(KZ_LayoutAttribute)layoutAttribute equalValue:(id)value multipier:(CGFloat)multipier;
-- (void)addConstraintsWithAttribute:(KZ_LayoutAttribute)layoutAttribute equalValue:(id)value offset:(id)offset multipier:(CGFloat)multipier;
+- (void)kz_addConstraintsWithAttribute:(KZ_LayoutAttribute)layoutAttribute equalValue:(id)value;
+- (void)kz_addConstraintsWithAttribute:(KZ_LayoutAttribute)layoutAttribute equalValue:(id)value offset:(id)offset;
+- (void)kz_addConstraintsWithAttribute:(KZ_LayoutAttribute)layoutAttribute equalValue:(id)value multipier:(CGFloat)multipier;
+- (void)kz_addConstraintsWithAttribute:(KZ_LayoutAttribute)layoutAttribute equalValue:(id)value offset:(id)offset multipier:(CGFloat)multipier;
 
-- (void)addConstraintsWithAttribute:(KZ_LayoutAttribute)layoutAttribute greaterThanOrEqualValue:(id)value;
-- (void)addConstraintsWithAttribute:(KZ_LayoutAttribute)layoutAttribute greaterThanOrEqualValue:(id)value offset:(id)offset;
-- (void)addConstraintsWithAttribute:(KZ_LayoutAttribute)layoutAttribute greaterThanOrEqualValue:(id)value multipier:(CGFloat)multipier;
-- (void)addConstraintsWithAttribute:(KZ_LayoutAttribute)layoutAttribute greaterThanOrEqualValue:(id)value offset:(id)offset multipier:(CGFloat)multipier;
+- (void)kz_addConstraintsWithAttribute:(KZ_LayoutAttribute)layoutAttribute greaterThanOrEqualValue:(id)value;
+- (void)kz_addConstraintsWithAttribute:(KZ_LayoutAttribute)layoutAttribute greaterThanOrEqualValue:(id)value offset:(id)offset;
+- (void)kz_addConstraintsWithAttribute:(KZ_LayoutAttribute)layoutAttribute greaterThanOrEqualValue:(id)value multipier:(CGFloat)multipier;
+- (void)kz_addConstraintsWithAttribute:(KZ_LayoutAttribute)layoutAttribute greaterThanOrEqualValue:(id)value offset:(id)offset multipier:(CGFloat)multipier;
 
-- (void)addConstraintsWithAttribute:(KZ_LayoutAttribute)layoutAttribute lessThanOrEqualValue:(id)value;
-- (void)addConstraintsWithAttribute:(KZ_LayoutAttribute)layoutAttribute lessThanOrEqualValue:(id)value offset:(id)offset;
-- (void)addConstraintsWithAttribute:(KZ_LayoutAttribute)layoutAttribute lessThanOrEqualValue:(id)value multipier:(CGFloat)multipier;
-- (void)addConstraintsWithAttribute:(KZ_LayoutAttribute)layoutAttribute lessThanOrEqualValue:(id)value offset:(id)offset multipier:(CGFloat)multipier;
+- (void)kz_addConstraintsWithAttribute:(KZ_LayoutAttribute)layoutAttribute lessThanOrEqualValue:(id)value;
+- (void)kz_addConstraintsWithAttribute:(KZ_LayoutAttribute)layoutAttribute lessThanOrEqualValue:(id)value offset:(id)offset;
+- (void)kz_addConstraintsWithAttribute:(KZ_LayoutAttribute)layoutAttribute lessThanOrEqualValue:(id)value multipier:(CGFloat)multipier;
+- (void)kz_addConstraintsWithAttribute:(KZ_LayoutAttribute)layoutAttribute lessThanOrEqualValue:(id)value offset:(id)offset multipier:(CGFloat)multipier;
 
 @end
