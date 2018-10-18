@@ -9,6 +9,7 @@
 #import "ViewController.h"
 #import "MultiViewController.h"
 #import <KZ_Categories_iOS/UIView+KZ_Frame.h>
+#import <KZ_MacroDefinition_iOS/KZ_MacroDefinition.h>
 #import <KZ_MultiPageViewController_iOS/KZ_MultiPageViewController.h>
 
 @interface ViewController () <KZ_MultiPageViewControllerDelegate> {
@@ -52,7 +53,7 @@
 //    multiPageViewController.multiPageSegmentControl.movingViewSideWidth = 10;
 //    multiPageViewController.multiPageSegmentControl.sideLeftWidth = 50;
 //    multiPageViewController.multiPageSegmentControl.sideRightWidth = 50;
-    multiPageViewController.viewFrame = self.view.bounds;
+    multiPageViewController.viewFrame = CGRectMake(0, KZ_Status_Height, self.view.width, self.view.height - KZ_Status_Height);
     [multiPageViewController resetSegmentTitles:titleArray type:KZ_MultiPageTitleType_AutoSize];
     [multiPageViewController resetViewControllers:array];
     [self addChildViewController:multiPageViewController];

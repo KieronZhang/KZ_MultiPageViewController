@@ -2,7 +2,7 @@
 Pod::Spec.new do |s|
 
     s.name = 'KZ_MultiPageViewController'
-    s.version = '0.1.2'
+    s.version = '0.1.3'
     s.summary = 'iOS Multi Page ViewController.'
     s.homepage = 'https://github.com/KieronZhang/KZ_MultiPageViewController'
     s.license = {:type => 'MIT', :file => 'LICENSE'}

@@ -7,5 +7,6 @@ target 'KZ_MultiPageViewController_iOS' do
     pod 'KZ_Categories'
     pod 'KZ_ReuseScrollView'
     pod 'KZ_Constraints'
-
+    pod 'KZ_MacroDefinition'
+    
 end

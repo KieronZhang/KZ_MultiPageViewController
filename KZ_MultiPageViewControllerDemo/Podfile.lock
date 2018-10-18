@@ -1,13 +1,15 @@
 PODS:
-  - KZ_Categories (0.1.3):
+  - KZ_Categories (0.1.4):
     - KZ_JSON
-  - KZ_Constraints (0.1.4)
-  - KZ_JSON (0.1.2)
-  - KZ_ReuseScrollView (0.1.1)
+  - KZ_Constraints (0.1.7)
+  - KZ_JSON (0.1.3)
+  - KZ_MacroDefinition (0.1.3)
+  - KZ_ReuseScrollView (0.1.2)
 
 DEPENDENCIES:
   - KZ_Categories
   - KZ_Constraints
+  - KZ_MacroDefinition
   - KZ_ReuseScrollView
 
 SPEC REPOS:
@@ -15,14 +17,16 @@ SPEC REPOS:
     - KZ_Categories
     - KZ_Constraints
     - KZ_JSON
+    - KZ_MacroDefinition
     - KZ_ReuseScrollView
 
 SPEC CHECKSUMS:
-  KZ_Categories: 84a90f91256ed74522fd0ded1e2bed094d5a6dd3
-  KZ_Constraints: 69d58cead692cb8ba778a00ba07bd5024045c771
-  KZ_JSON: 71ee38a4e9a97b46c3c302408b9329051bb49980
-  KZ_ReuseScrollView: d3f4b7008ae4b5b7fd0b3807a2dbd155b919042f
+  KZ_Categories: 42389791377f182cd87581d23ea873c7a7b87a66
+  KZ_Constraints: e5e23e4b42390dd99619ba21fa80b60f46985793
+  KZ_JSON: 4e4766cb638fb95fd0b9aa95de506acc6d5735eb
+  KZ_MacroDefinition: 227068cb3523c1479660e6c248d8856592c45332
+  KZ_ReuseScrollView: aabd6c6a5f2045e8f6f687e5c340ed676d35a4d4
 
-PODFILE CHECKSUM: 24ac223c041da8598b33926a6d139b4957c255d3
+PODFILE CHECKSUM: e1c373d968f367d3febc74f6c0b233a79010a7ea
 
-COCOAPODS: 1.5.2
+COCOAPODS: 1.5.3

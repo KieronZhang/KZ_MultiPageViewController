@@ -27,12 +27,12 @@
 @property (nonatomic, strong, readonly) KZ_ConstraintAttribute *kz_centery;
 @property (nonatomic, strong, readonly) KZ_ConstraintAttribute *kz_baseline;
 
-#if (__IPHONE_OS_VERSION_MIN_REQUIRED >= 80000) || (__MAC_OS_X_VERSION_MIN_REQUIRED >= 101100)
+#if __IPHONE_OS_VERSION_MIN_REQUIRED >= __IPHONE_8_0 || __MAC_OS_X_VERSION_MIN_REQUIRED >= __MAC_10_11
 @property (nonatomic, strong, readonly) KZ_ConstraintAttribute *kz_firstBaseline;
 @property (nonatomic, strong, readonly) KZ_ConstraintAttribute *kz_lastBaseline;
 #endif
 
-#if (__IPHONE_OS_VERSION_MIN_REQUIRED >= 80000)
+#if __IPHONE_OS_VERSION_MIN_REQUIRED >= __IPHONE_8_0
 @property (nonatomic, strong, readonly) KZ_ConstraintAttribute *kz_leftMargin;
 @property (nonatomic, strong, readonly) KZ_ConstraintAttribute *kz_rightMargin;
 @property (nonatomic, strong, readonly) KZ_ConstraintAttribute *kz_topMargin;

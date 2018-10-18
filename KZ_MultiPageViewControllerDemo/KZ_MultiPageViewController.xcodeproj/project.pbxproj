@@ -13,8 +13,8 @@
 		AE4003D520A29F7A00017619 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AE4003D420A29F7A00017619 /* Assets.xcassets */; };
 		AE4003D820A29F7A00017619 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AE4003D620A29F7A00017619 /* LaunchScreen.storyboard */; };
 		AE4003DB20A29F7A00017619 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AE4003DA20A29F7A00017619 /* main.m */; };
-		AE4003E120A29FAE00017619 /* KZ_MultiPageViewController_iOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AE4003E020A29FAE00017619 /* KZ_MultiPageViewController_iOS.framework */; };
 		AE4003E420A29FE800017619 /* MultiViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AE4003E320A29FE800017619 /* MultiViewController.m */; };
+		AEF94DDC21783FEE0063EE69 /* KZ_MultiPageViewController_iOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AEF94DDB21783FEE0063EE69 /* KZ_MultiPageViewController_iOS.framework */; };
 		C467CD3631EFD85874661C7D /* Pods_KZ_MultiPageViewController_iOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2910CDFFF4334C78729B85EB /* Pods_KZ_MultiPageViewController_iOS.framework */; };
 /* End PBXBuildFile section */
 
@@ -30,9 +30,9 @@
 		AE4003D720A29F7A00017619 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		AE4003D920A29F7A00017619 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		AE4003DA20A29F7A00017619 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		AE4003E020A29FAE00017619 /* KZ_MultiPageViewController_iOS.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = KZ_MultiPageViewController_iOS.framework; sourceTree = "<group>"; };
 		AE4003E220A29FE800017619 /* MultiViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MultiViewController.h; sourceTree = "<group>"; };
 		AE4003E320A29FE800017619 /* MultiViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MultiViewController.m; sourceTree = "<group>"; };
+		AEF94DDB21783FEE0063EE69 /* KZ_MultiPageViewController_iOS.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = KZ_MultiPageViewController_iOS.framework; sourceTree = "<group>"; };
 		B874688A5DF8D85324DF656B /* Pods-KZ_MultiPageViewController_iOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KZ_MultiPageViewController_iOS.release.xcconfig"; path = "Pods/Target Support Files/Pods-KZ_MultiPageViewController_iOS/Pods-KZ_MultiPageViewController_iOS.release.xcconfig"; sourceTree = "<group>"; };
 		C63C6DA06EB2F04E786F83AB /* Pods-KZ_MultiPageViewController_iOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KZ_MultiPageViewController_iOS.debug.xcconfig"; path = "Pods/Target Support Files/Pods-KZ_MultiPageViewController_iOS/Pods-KZ_MultiPageViewController_iOS.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -42,8 +42,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AE4003E120A29FAE00017619 /* KZ_MultiPageViewController_iOS.framework in Frameworks */,
 				C467CD3631EFD85874661C7D /* Pods_KZ_MultiPageViewController_iOS.framework in Frameworks */,
+				AEF94DDC21783FEE0063EE69 /* KZ_MultiPageViewController_iOS.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -98,7 +98,7 @@
 		AE4003DF20A29FAE00017619 /* MultiPageViewController */ = {
 			isa = PBXGroup;
 			children = (
-				AE4003E020A29FAE00017619 /* KZ_MultiPageViewController_iOS.framework */,
+				AEF94DDB21783FEE0063EE69 /* KZ_MultiPageViewController_iOS.framework */,
 			);
 			path = MultiPageViewController;
 			sourceTree = "<group>";
@@ -357,7 +357,10 @@
 				);
 				INFOPLIST_FILE = KZ_MultiPageViewController_iOS/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.kieronzhang.KZ-MultiPageViewController-iOS";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = 1;
@@ -378,7 +381,10 @@
 				);
 				INFOPLIST_FILE = KZ_MultiPageViewController_iOS/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.kieronzhang.KZ-MultiPageViewController-iOS";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = 1;
