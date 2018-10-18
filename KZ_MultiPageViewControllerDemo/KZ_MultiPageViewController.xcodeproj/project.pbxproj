@@ -361,7 +361,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.kieronzhang.KZ-MultiPageViewController-iOS";
+				PRODUCT_BUNDLE_IDENTIFIER = com.kieronzhang.MultiPageViewController;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = 1;
 			};
@@ -385,7 +385,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.kieronzhang.KZ-MultiPageViewController-iOS";
+				PRODUCT_BUNDLE_IDENTIFIER = com.kieronzhang.MultiPageViewController;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = 1;
 			};
